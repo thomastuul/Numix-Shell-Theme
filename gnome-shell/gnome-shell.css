@@ -1,4 +1,6 @@
-@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+@import url("/home/thomas/.themes/Default Theme/gnome-shell/gnome-shell.css");
+
+/* https://linuxhint.com/modify_style_gnome_shell_themes/ */
 
 /* Buttons */
 
@@ -128,7 +130,7 @@
     font-size: 11pt;
     caret-color: #666;
     caret-size: 1px;
-    background-color: rgba(45,45,45,1.0);
+    background-color: rgba(180,180,180,1.0);
     selection-background-color: rgba(214,73,55,1.0);
     selected-color: rgba(249,249,249,1.0);
     padding: 5px 12px 6px;
@@ -356,12 +358,13 @@ StScrollBar StButton#hhandle:active {
     color: rgba(222,222,222,1);
 }
 
-.popup-submenu-menu-item:open {
-    background-color: rgba(51,51,51,1);
+.popup-menu-item.selected {
+    background-color: rgba(80, 80, 80, 1.0);
+    color: white;
 }
 
-.popup-menu .popup-menu-item:active {
-    background-color: #d64937;
+.popup-submenu-menu-item:open {
+    background-color: rgba(51,51,51,1);
 }
 
 .popup-separator-menu-item {
@@ -373,6 +376,10 @@ StScrollBar StButton#hhandle:active {
     background-color: rgba(51,51,51,1);
 }
 
+.popup-menu-item:active {
+    background-color: #bfc1c2;
+    color: black;
+}
 
 /* App Switcher */
 .switcher-popup {
@@ -561,6 +568,10 @@ StScrollBar StButton#hhandle:active {
     text-align: right;
 }
 
+.events-section-title {
+  color: rgb(222,222,222);
+}
+
 .system-menu-action {
     color: rgb(222,222,222);
     border-radius: 32px;
@@ -715,12 +726,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .message {
-    background-color: rgba(51,51,51,1);
+    background-color: rgba(220,220,220,1);
 }
 
 .message:hover,
 .message:focus {
-    background-color: rgba(72,72,72,1);
+    background-color: rgba(250,250,250,1);
 }
 
 .message:active {
@@ -1017,6 +1028,21 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog-button:focus {
+}
+
+/* Run dialog (Alt+F2) */
+
+.run-dialog .run-dialog-description {
+  font-size: 10pt;
+  text-align: center;
+  color: #A0A0A0; }
+
+    
+.run-dialog-entry {
+    color: #E0E0E0;
+    } 
+    .lightbox {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
