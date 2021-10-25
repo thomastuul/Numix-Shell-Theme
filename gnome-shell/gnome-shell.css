@@ -139,6 +139,7 @@
     border-radius: 6px;
     border-color: rgba(72,72,72,1.0);
     border-image: none;
+    color: black;
 }
 
 .login-dialog StEntry,
@@ -157,7 +158,6 @@
     border-color: rgba(72,72,72,1.0);
     border-image: none;
 }
-
 
 /* Panel */
 
@@ -285,8 +285,9 @@ StScrollBar StButton#hhandle:active {
     -slider-height: 3px;
     -slider-background-color: rgba(72,72,72,0.5);
     -slider-border-color: transparent;
-    -slider-active-background-color: #d64937;
+    -slider-active-background-color: #EF7D44;
     -slider-active-border-color: #d64937;
+    -barlevel-active-background-color: #EF7D44;
 }
 
 
@@ -1029,6 +1030,10 @@ StScrollBar StButton#hhandle:active {
 
 .modal-dialog-button:focus {
 }
+/*
+.modal-dialog-button {
+color: white;
+} */
 
 /* Run dialog (Alt+F2) */
 
@@ -1460,3 +1465,4 @@ StScrollBar StButton#hhandle:active {
     border-radius: 0.3em;
     background-color: rgba(72,72,72,0.5);
 }
+
